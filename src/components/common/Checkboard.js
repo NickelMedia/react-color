@@ -18,8 +18,8 @@ export const Checkboard = ({ white, grey, size, renderers, borderRadius, boxShad
 
 Checkboard.defaultProps = {
   size: 8,
-  white: 'transparent',
-  grey: 'rgba(0,0,0,.08)',
+  white: '#fff',
+  grey: '#ccc',
   renderers: {},
 }
 
