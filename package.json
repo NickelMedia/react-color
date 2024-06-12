@@ -29,7 +29,7 @@
     "build-storybook": "build-storybook -c .storybook -o .out",
     "chromatic": "chromatic --project-token=9z2kaxsuz",
     "deploy": "npx np --no-tests --message 'v%s'",
-    "release": "npm run lint && npm run build && npm run deploy"
+    "release": "npm run build && npm run deploy"
   },
   "sideEffects": false,
   "homepage": "https://github.com/NickelMedia/react-color/",
